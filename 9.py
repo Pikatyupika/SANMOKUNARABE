@@ -5,7 +5,7 @@ def eva(X):
 
 X=[0,1,2,3,4,5,6,7,8]
 Y=list(itertools.permutations(X,9))
-Z=[]
+
 kosuu = 0
 print(len(Y))
 for A in Y:
