@@ -47,8 +47,8 @@ def playGame():
         choise = randomChoise()
         move(choise, playerflag + 9)
         a = check()
+        print(GameBoard)
         if a is not None:
-            print(GameBoard)
             if a == 9:
                 print("〇の勝利")
             elif a == 10:
